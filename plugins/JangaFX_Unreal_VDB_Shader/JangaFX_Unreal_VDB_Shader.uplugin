@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "JangaFX VDB Shader",
+	"Description": "Advanced shader for the heterogeneous volumes in Unreal Eninge for use with VDB files exported from Embergen.",
+	"Category": "Shaders",
+	"CreatedBy": "Daniël van der Kaaden",
+	"CreatedByURL": "https://www.linkedin.com/in/dani%C3%ABl-van-der-kaaden-8ab037150/",
+	"DocsURL": "https://docs.jangafx.com/embergen/pages/references/specific/exportVDB.html#vdb-export",
+	"MarketplaceURL": "https://discord.com/channels/274382782627840002/299646863618080770",
+	"SupportURL": "https://discord.com/channels/274382782627840002/299646863618080770",
+	"EngineVersion": "5.3.0",
+	"CanContainContent": true,
+	"Installed": true
+}

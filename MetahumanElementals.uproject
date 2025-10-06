@@ -5,74 +5,41 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "DatasmithImporter",
-			"Enabled": true
-		},
-		{
-			"Name": "InterchangeEditor",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux",
-				"Mac"
-			]
-		},
-		{
-			"Name": "DatasmithCADImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
-			"Name": "DatasmithC4DImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Mac"
-			]
-		},
-		{
-			"Name": "AxFImporter",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64"
-			]
-		},
-		{
-			"Name": "DataPrepEditor",
-			"Enabled": true
-		},
-		{
-			"Name": "VariantManager",
-			"Enabled": true
-		},
-		{
-			"Name": "SunPosition",
-			"Enabled": true
-		},
-		{
-			"Name": "HDRIBackdrop",
-			"Enabled": true
-		},
-		{
-			"Name": "PythonScriptPlugin",
-			"Enabled": true
-		},
-		{
-			"Name": "SequencerScripting",
-			"Enabled": false
-		},
-		{
 			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "RigLogic",
 			"Enabled": true
 		},
 		{
-			"Name": "MovieRenderPipeline",
+			"Name": "LiveLink",
 			"Enabled": true
 		},
 		{
-			"Name": "MoviePipelineMaskRenderPass",
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleARKitFaceSupport",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"IOS",
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android"
+			]
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
+		},
+		{
+			"Name": "VirtualCamera",
 			"Enabled": true
 		},
 		{
@@ -84,7 +51,59 @@
 			]
 		},
 		{
-			"Name": "MetaHumanCharacter",
+			"Name": "PythonFoundationPackages",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonAutomationTest",
+			"Enabled": true
+		},
+		{
+			"Name": "JangaFX_Unreal_VDB_Shader",
+			"Enabled": true,
+			"MarketplaceURL": "https://discord.com/channels/274382782627840002/299646863618080770"
+		},
+		{
+			"Name": "NiagaraFluids",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothAsset",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothAssetEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothGenerator",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosClothEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
+		},
+		{
+			"Name": "MoviePipelineMaskRenderPass",
+			"Enabled": true
+		},
+		{
+			"Name": "AppleProResMedia",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "AlembicHairImporter",
+			"Enabled": true
+		},
+		{
+			"Name": "HairModelingToolset",
 			"Enabled": true
 		},
 		{
@@ -96,12 +115,12 @@
 			]
 		},
 		{
-			"Name": "MetaHumanCoreTech",
-			"Enabled": true,
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Linux"
-			]
+			"Name": "MetaHumanCharacter",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHumanForMaya",
+			"Enabled": true
 		},
 		{
 			"Name": "MetaHumanLiveLink",
@@ -109,10 +128,6 @@
 		},
 		{
 			"Name": "MetaHumanRuntime",
-			"Enabled": true
-		},
-		{
-			"Name": "MetaHumanForMaya",
 			"Enabled": true
 		}
 	]
